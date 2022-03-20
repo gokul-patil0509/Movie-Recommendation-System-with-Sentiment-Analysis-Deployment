@@ -1,0 +1,17 @@
+Flask==2.0.3
+gunicorn==20.1.0
+Jinja2==3.0.3
+MarkupSafe==2.1.1
+Werkzeug==2.0.3
+numpy==1.22.3
+scipy==1.8.0
+nltk==3.7
+scikit-learn==1.0.2
+pandas==1.4.1
+beautifulsoup4==4.10.0
+jsonschema==4.4.0
+tmdbv3api==1.7.6
+lxml==4.8.0
+urllib3==1.26.9
+requests==2.27.1
+pickleshare==0.7.5
