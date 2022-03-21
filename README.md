@@ -1,11 +1,14 @@
 # Movie-Recommendation-System-with-Sentiment-Analysis-Deployment
 
-![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
+![Python](https://img.shields.io/badge/Python-3.9-blueviolet)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
+![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)
+![pandas](https://img.shields.io/badge/Library-Pandas-yellow.svg)
+![matplotlib](https://img.shields.io/badge/Library-Matplotlib-orange.svg)
 ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 
-# Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
+## Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
@@ -17,10 +20,10 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 
 ## How to run the project?
 
-1. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/requirements.txt) file.
+1. Install all the libraries mentioned in the [requirements.txt](https://github.com/gokul-patil0509/Movie-Recommendation-System-with-Sentiment-Analysis-Deployment/blob/master/requirements.txt) file.
 2. Clone this repository in your local system.
 3. Replace YOUR_API_KEY in the `static/recommend.js` file.
-4. Open the command prompt from your project directory and run the command `python main.py`.
+4. Open the command prompt from your project directory and run the command `python app.py`.
 5. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
 6. Hurray! That's it.
 
@@ -34,3 +37,6 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
   Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
   
   ![image](https://user-images.githubusercontent.com/36665975/70401457-a7530680-1a55-11ea-9158-97d4e8515ca4.png)
+  
+ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/) 
+  
